@@ -25,5 +25,9 @@
         font-size: 2rem;
         font-weight: 700;
         color: rgb(0, 117, 169);
+        transition: scale 500ms ease-in-out;
+        &:hover{
+            scale: 1.25;
+        }
     }
 }

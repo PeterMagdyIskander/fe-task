@@ -69,5 +69,9 @@
         position: absolute;
         right: 25px;
         top: 25px;
+        transition: rotate 1s ease-in-out;
+        &:hover{
+            rotate: (-360deg);
+        }
     }
 }
