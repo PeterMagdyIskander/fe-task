@@ -6,6 +6,8 @@
 .container {
     background-color: rgb(115, 103, 240);
     width: 100%;
+    max-width: 100%;
+    min-height: 150px;
     height: 100%;
     border-radius: 12px;
     display: flex;
